@@ -3,6 +3,7 @@
   home.packages = with pkgs; [
     ## Minecraft
     prismlauncher
+    mcpelauncher-ui-qt
 
     ## Cli games
     _2048
