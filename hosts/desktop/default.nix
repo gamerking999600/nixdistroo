@@ -101,10 +101,5 @@ fileSystems."/home/hashim/.ollama" = {
   };
   
 
- services.ollama = {
-  enable = false;
-  package = pkgs.ollama-cuda;   # Use CUDA version for your RTX 4060
-  host = "0.0.0.0";
-  };
-  
+services.ollama.package = pkgs.ollama-cuda;
 }
